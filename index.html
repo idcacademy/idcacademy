@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png" width="100" height="100"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Homepage 首頁</a></li>
+                        <li><a href="graduate-chi.html">Graduation 畢業</a></li>
+                        <li><a href="contacts.html">Contacts 聯絡</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>歡迎來到本我學院</h1>
+                <h1>Welcome to Innovative Dreamers' College</h1>
+                <p><strong>青春本我是圍繞中學生活的香港電視劇。</strong></p>
+                <p><strong>Forever Young at Heart is a TV drama about High School Life in Hong Kong.</strong></p>
+
+        </div>
+    </div>
+
+    <div class="services">
+        <br><br>
+        <h1>關於本我學院網站</h1>
+        <p>你所需要知道的本我學院最新消息。</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>認識青春本我</h3>
+                <p>「青春本我」既是電視劇的劇名，亦是本校的校訓。</p>
+            </div>
+            <div class="service-col">
+                <h3>從本我學院畢業</h3>
+                <p>網站提供畢業證書製造器，讓各位粉絲們能夠輸入自己的名字製造屬於自己的本我學院畢業證書。</p>
+            </div>
+            <div class="service-col">
+                <h3>找到自己支持的本我學院成員</h3>
+                <p>認識本我學院的成員，也能夠找到他們的社交媒體，以獲得他們的最新消息。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <br><br>
+        <h1>About IDC Website</h1>
+        <p>All updates you need to know about IDC.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Learn about Forever Young at Heart</h3>
+                <p>Forever Young at Heart is both the name of the TV series and is the school motto of IDC.</p>
+            </div>
+            <div class="service-col">
+                <h3>Graduate from IDC</h3>
+                <p>A graduation certificate generator is developed, where certificates in english and chinese may be generated.</p>
+            </div>
+            <div class="service-col">
+                <h3>Find your favorite IDC member</h3>
+                <p>The contact page consists of a list of IDC members, with their social media links attached. Follow them on instagram to receive the newest updates.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>This website is made by a big fan of forever young at heart, solely for entertainment purposes and is not an official website by TVB.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/seeseetvb" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/chantel_x_yumi/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/%E8%81%B2%E5%A4%A2%E5%82%B3%E5%A5%87STARSACADEMY" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>Made by Bowen Leung @2022</p>
+    </div>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>

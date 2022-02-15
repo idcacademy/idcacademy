@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>畢業 - 本我學院</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="headergrad">
+            <nav>
+                <a href="index.html"><img src="logo.png" width="100" height="100"></a>
+                <div class="navg-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Homepage 首頁</a></li>
+                        <li><a href="graduate-chi.html">Graduation 畢業</a></li>
+                        <li><a href="contacts.html">Contacts 聯絡</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+            <div class="services">
+                <br><br>
+                <h1>取得你的畢業證書</h1>
+                <p>在此頁面，你能夠得到本我校園的畢業證書。</p>
+                <a href="graduate-eng.html" class="switchlang">Claim an English version of the certificate here.</a>
+                <img src="gradpagepic.png" class="centerpic">
+                <div class="row">
+                    <div class="serviceg-col">
+                        <h3>中文證書</h3>
+                        <p>輸入你的名字，然後按「下載」以獲取證書。 </p>
+                            <input type="text" placeholder="輸入名字" id="name-chi">         
+                            <a href="#" id="download-btn-chi">下載</a>
+                            <p></p>
+                            <canvas id="canvas-chi" height="1702px" width="2414px"></canvas>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer">
+                <h4>About Us</h4>
+                <p>This website is made by a big fan of forever young at heart, solely for entertainment purposes and is not an official website by TVB.</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/seeseetvb" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/chantel_x_yumi/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/%E8%81%B2%E5%A4%A2%E5%82%B3%E5%A5%87STARSACADEMY" target="_blank"><i class="fa fa-youtube"></i></a>                </div>
+                <p>Made by Bowen Leung @2022</p>
+            </div>
+
+            <script>
+                var navLinks = document.getElementById("navLinks");
+        
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+        
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+            </script>
+
+            <script src="script.js"></script>
+    </body>
+</html>
+        
+        
